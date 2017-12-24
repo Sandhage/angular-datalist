@@ -6,6 +6,6 @@ I have built a similar component for a company that I work for, however the spec
 
 Here are some screen shot previews of how it works on the platform from my current company, Relay Network:
 
-![Alt text](https:/github.com/tree/master/src/assets/img1.png?raw=true "Before interaction.")
+![Alt text](https:/github.com/blob/master/src/assets/img1.png?raw=true "Before interaction.")
 
-![Alt text](https:/github.com/tree/master/src/assets/img1.png?raw=true "During interaction.")
+![Alt text](https:/github.com/blob/master/src/assets/img1.png?raw=true "During interaction.")
