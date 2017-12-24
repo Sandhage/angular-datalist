@@ -1,28 +1,11 @@
 # AngularDatalist
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+The purpose of this project is to build an angular dropdown component that behaves like an HTML5 datalist which is also compatible with Safari and iOS browsers.
 
-## Development server
+I have built a similar component for a company that I work for, however the specific code used (as well as data models it required) are under IP. I am rebuilding this to be more generic and utilizing a slightly different approach leveraging services to mock-up and manage the items/data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Here are some screen shot previews of how it works on the platform from my current company, Relay Network:
 
-## Code scaffolding
+![Alt text](https:/github.com/tree/master/src/assets/img1.png?raw=true "Before interaction.")
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Alt text](https:/github.com/tree/master/src/assets/img1.png?raw=true "During interaction.")

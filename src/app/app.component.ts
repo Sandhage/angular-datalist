@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataListComponent } from './data-list/data-list.component';
 
 @Component({
   selector: 'app-root',

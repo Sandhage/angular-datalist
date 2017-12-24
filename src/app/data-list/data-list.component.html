@@ -1,0 +1,15 @@
+<div>
+  <label  i18n="Journey item heading">Datalist</label>
+  <input id="journey-item" class="form-control" list="item-list"
+         [ngModel]="listItems.selected.value" [class.list-border]="listItems.display === 'block'"
+         (dblclick)="toggleItemDropdown($event)"
+         (click)="toggleItemDropdown($event)"
+         (keyup)="toggleItemDropdown($event)"
+         (focus)="toggleItemDropdown($event)">
+  <div id="item-dropdown" [ngStyle]="{display: listItems.display}">
+      <option class="item" [class.highlight]="item.highlighted" *ngFor="let item of listItems.match"
+              (mouseenter)="selectItem($event)"
+              (mouseleave)="selectItem($event)"
+              (click)="setItem(item)">{{item.value}}</option>
+  </div>
+</div>
