@@ -6,6 +6,8 @@ I have built a similar component for a company that I work for, however the spec
 
 Here are some screen shot previews of how it works on the platform from my current company, Relay Network:
 
+## Before interaction
 ![Alt text](/src/assets/img1.png?raw=true "Before interaction.")
 
-![Alt text](/src/assets/img1.png?raw=true "During interaction.")
+### During interaction
+![Alt text](/src/assets/img2.png?raw=true "During interaction.")
