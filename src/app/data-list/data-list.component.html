@@ -1,6 +1,6 @@
-<div>
-  <label  i18n="Journey item heading">Datalist</label>
-  <input id="journey-item" class="form-control" list="item-list"
+<div class="container">
+  <label>Datalist</label>
+  <input id="item" class="form-control" list="item-list"
          [ngModel]="listItems.selected.value" [class.list-border]="listItems.display === 'block'"
          (dblclick)="toggleItemDropdown($event)"
          (click)="toggleItemDropdown($event)"
